@@ -1,55 +1,63 @@
-Quran Question Answering System
-Overview
-This project is a Quran Question Answering System developed using Streamlit and Python. It utilizes a fine-tuned version of the "wissamantoun/araelectra-base-artydiqa" model for answering questions based on the context provided from the Quran.
+# Readme for Quran Question Answering System
 
-Features
-Question answering based on context from the Quran.
-User-friendly web interface using Streamlit.
-Utilizes advanced NLP models for accurate answers.
-Installation
-To set up this project, follow these steps:
+## Overview
 
-Clone the Repository
+This repository presents a Quran Question Answering System developed using Python and Streamlit. It utilizes a fine-tuned version of the "wissamantoun/araelectra-base-artydiqa" model to provide answers to questions based on context from the Quran.
 
-bash
-Copy code
-git clone [your-repository-link]
-cd Arabic_Quran_QA
-Install Dependencies
-Make sure you have Python installed on your system. Then install the required packages:
+## Features
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-To run the Streamlit app:
+- Efficient question answering using Quranic context.
+- User-friendly web interface powered by Streamlit.
+- Harnesses advanced NLP models for precise responses.
 
-bash
-Copy code
+## Installation
+
+To set up this project, follow the steps below:
+
+1. **Clone the Repository:**
+    ```bash
+    git clone [your-repository-link]
+    cd Arabic_Quran_QA
+    ```
+
+2. **Install Dependencies:**
+   Ensure that you have Python installed on your system. Then install the necessary packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To launch the Streamlit app, use the following command:
+```bash
 streamlit run your_streamlit_app.py
-Replace your_streamlit_app.py with the name of your main Streamlit script file.
+```
+Replace `your_streamlit_app.py` with the actual name of your main Streamlit script file.
 
-Docker Support
-You can also run this app as a Docker container:
+## Docker Support
 
-Build the Docker Image
+You can also run this application as a Docker container:
 
-bash
-Copy code
-docker build -t streamlit-app .
-Run the Docker Container
+1. **Build the Docker Image:**
+    ```bash
+    docker build -t streamlit-app .
+    ```
 
-bash
-Copy code
-docker run -p 8501:8501 streamlit-app
-Contributing
-Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
+2. **Run the Docker Container:**
+    ```bash
+    docker run -p 8501:8501 streamlit-app
+    ```
 
-License
+## Contributing
+
+Contributions to this project are encouraged. Please fork the repository and submit a pull request with your modifications.
+
+## License
+
 [Specify your license or state that it's unlicensed.]
 
-Instructions for Use:
+## Instructions for Use
 
-Replace [your-repository-link] with the actual link to your GitHub repository.
-Update any file names, commands, or additional instructions specific to your project setup.
-Choose an appropriate license for your project, or state explicitly if it's not licensed.
+- Replace `[your-repository-link]` with the actual link to your GitHub repository.
+- Update any file names, commands, or additional instructions specific to your project setup.
+- Choose an appropriate license for your project or explicitly state if it's unlicensed.
